@@ -3,7 +3,7 @@ mode=safety
 
 model_name=gemma-2-9b-it
 model_name_or_paths=(
-    /disk3/wmr/hugging_cache/gemma-2-9b-it
+    ./model/gemma-2-9b-it # replace ./model/gemma-2-9b-it with your own model path
 )
 
 test_name=base

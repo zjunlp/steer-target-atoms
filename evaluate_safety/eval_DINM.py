@@ -158,7 +158,7 @@ if __name__ == '__main__':
     # ]
     parser = argparse.ArgumentParser()
     parser.add_argument('--pred_file', type=str, required=True, help='Path to the prediction file or directory containing .result.json files.')
-    parser.add_argument('--safety_classifier_dir', type=str, required=True, help='Path to the safety classifier model directory.', default='./hugging_cache/plus_safety_classifier_all_layers')
+    parser.add_argument('--safety_classifier_dir', type=str, required=True, help='Path to the safety classifier model directory.')
     args = parser.parse_args()
     safety_classifier_dir = args.safety_classifier_dir
 
@@ -192,6 +192,3 @@ if __name__ == '__main__':
         final_dir = os.path.dirname(output_dir)
         rewrite_json(f'{final_dir}/final_result.json', final_result)
         print(f'{data_name} is all done')
-
-
-

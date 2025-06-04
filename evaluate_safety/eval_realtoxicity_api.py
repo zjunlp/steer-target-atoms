@@ -29,7 +29,7 @@ def toxicity_score(generations_df, perspective_file, perspective_rate_limit=5):
 
 
     # get the API key from the environment
-    API_KEY = "AIzaSyBnlU6YT8mn5uQQ6ll1VxJzCsu8feLNioc"
+    API_KEY = "your own API key" # you can get your own API key from https://developers.perspectiveapi.com/s/docs-common-use-cases?language=en_US
     # assert API_KEY is not None, "Please set the GOOGLE_API_KEY environment variable before proceeding"
 
     client = discovery.build(

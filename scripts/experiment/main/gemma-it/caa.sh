@@ -2,7 +2,7 @@ device=0
 mode=safety
 
 model_name=gemma-2-9b-it
-model_name_or_path=/disk3/wmr/hugging_cache/gemma-2-9b-it
+model_name_or_path=./model/gemma-2-9b-it # replace ./model/gemma-2-9b-it with your own model path
 data_names=(toxic_DINM_it)
 layers=(20)
 layer_num=${#layers[@]}

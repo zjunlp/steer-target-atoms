@@ -7,7 +7,7 @@ model_name=gemma-2-9b
 data_names=(
     toxic_DINM_pt
 )
-model_name_or_path=/data2/xzwnlp/model/gemma-2-9b
+model_name_or_path=./model/gemma-2-9b # replace ./model/gemma-2-9b with your own model path
 
 for eval_data_name in ${data_names[@]}; do
     data_name=${eval_data_name}
@@ -41,4 +41,3 @@ for eval_data_name in ${data_names[@]}; do
 
 done
 echo "Script execution completed."
-

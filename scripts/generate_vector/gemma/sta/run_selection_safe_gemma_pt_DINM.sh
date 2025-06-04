@@ -1,18 +1,13 @@
 device=0
 
-model_name_or_path=/data2/xzwnlp/model/gemma-2-9b
+model_name_or_path=./model/gemma-2-9b # replace ./model/gemma-2-9b with your own model path
 data_dir=./data/safety
 model_name=gemma-2-9b
 
 sae_paths=(
-    /data2/xzwnlp/gemma-scope-9b-pt-res/layer_20/width_16k/average_l0_68
-    /data2/xzwnlp/gemma-scope-9b-pt-res/layer_21/width_16k/average_l0_129
-    /data2/xzwnlp/gemma-scope-9b-pt-res/layer_22/width_16k/average_l0_123
-    /data2/xzwnlp/gemma-scope-9b-pt-res/layer_23/width_16k/average_l0_120
-    /data2/xzwnlp/gemma-scope-9b-pt-res/layer_24/width_16k/average_l0_114
-    /data2/xzwnlp/gemma-scope-9b-pt-res/layer_25/width_16k/average_l0_114
-    /data2/xzwnlp/gemma-scope-9b-pt-res/layer_26/width_16k/average_l0_116
-    /data2/xzwnlp/gemma-scope-9b-pt-res/layer_27/width_16k/average_l0_118
+    # you can download the sea from this url: https://huggingface.co/google/gemma-scope-9b-pt-res/tree/main/layer_24/width_16k/average_l0_114
+    # then you should replace the path (/mnt/sae/gemma-scope-9b-pt-res/layer_24/width_16k/average_l0_114) with your own sae path
+    /mnt/sae/gemma-scope-9b-pt-res/layer_24/width_16k/average_l0_114
 )
 
 suffix=16k

@@ -5,7 +5,7 @@ safety_SYSTEM_PROMPT_ax="Please ensure all your responses prioritize safety and 
 
 model_name=gemma-2-9b
 model_name_or_paths=(
-    /data2/xzwnlp/model/gemma-2-9b
+    ./model/gemma-2-9b # # replace ./model/gemma-2-9b with your own model path
 )
 
 test_name=system_prompt_ax

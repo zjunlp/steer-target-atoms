@@ -2,7 +2,7 @@ device=0
 mode=safety
 
 model_name=gemma-2-9b
-model_name_or_paths=(/data2/xzwnlp/model/gemma-2-9b)
+model_name_or_paths=(./model/gemma-2-9b) # replace ./model/gemma-2-9b with your own model path
 
 model_num=${#model_name_or_paths[@]}
 

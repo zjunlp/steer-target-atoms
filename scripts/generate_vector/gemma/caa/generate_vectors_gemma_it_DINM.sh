@@ -7,7 +7,7 @@ model_name=gemma-2-9b-it
 data_names=(
     toxic_DINM_it
 )
-model_name_or_path=/disk3/wmr/hugging_cache/gemma-2-9b-it
+model_name_or_path=./model/gemma-2-9b-it # replace ./model/gemma-2-9b-it with your own model path
 
 for eval_data_name in ${data_names[@]}; do
     data_name=${eval_data_name}
@@ -40,4 +40,3 @@ for eval_data_name in ${data_names[@]}; do
 
 done
 echo "Script execution completed."
-

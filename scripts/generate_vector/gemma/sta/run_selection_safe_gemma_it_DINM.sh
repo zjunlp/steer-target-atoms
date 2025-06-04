@@ -1,11 +1,13 @@
 device=0
 
-model_name_or_path=/disk3/wmr/hugging_cache/gemma-2-9b-it
+model_name_or_path=./model/gemma-2-9b-it # replace ./model/gemma-2-9b-it with your own model path
 data_dir=./data/safety
 model_name=gemma-2-9b-it
 
 sae_paths=(
-    /disk3/wmr/hugging_cache/gemma-scope-9b-it-res/layer_20/width_16k/average_l0_91
+    # you can download the sea from this url: https://huggingface.co/google/gemma-scope-9b-it-res/tree/main/layer_20/width_16k/average_l0_91
+    # then you should replace the path (/mnt/sae/gemma-scope-9b-it-res/layer_20/width_16k/average_l0_91) with your own sae path
+    /mnt/sae/gemma-scope-9b-it-res/layer_20/width_16k/average_l0_91 
 )
 
 suffix=16k
