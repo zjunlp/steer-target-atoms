@@ -1,12 +1,10 @@
+
 <div align="center">
-
-**Beyond Prompt Engineering: Robust Behavior Control in LLMs via Steering Target Atoms**
-
-<!-- ![](https://img.shields.io/badge/version-v0.0.1-blue)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-![](https://img.shields.io/badge/PRs-Welcome-red) -->
-
+    
+# **Beyond Prompt Engineering: Robust Behavior Control in LLMs via Steering Target Atoms**
+    
 </div>
+
 
 
 ## 🔧 Pip Installation
@@ -57,7 +55,7 @@ We recommend using [EasyEdit2](https://github.com/zjunlp/EasyEdit/blob/main/READ
 Please cite our paper if you use **STA** in your work.
 
 ```bibtex
-@misc{wang2024SafeEdit,
+@misc{wang2025STA,
       title={Beyond Prompt Engineering: Robust Behavior Control in LLMs via Steering Target Atoms}, 
       author={Mengru Wang, Ziwen Xu, Shengyu Mao, Shumin Deng, Zhaopeng Tu, Huajun Chen, Ningyu Zhang},
       year={2025},
