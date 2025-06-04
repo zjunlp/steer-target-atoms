@@ -1,0 +1,1 @@
+python ./baseline/steering_r1_qwen_gsm.py > ./data/r1/overthink_qwen/results/steering_r1_qwen_gsm_top20_add_gsm_template_temp0.6.log 2>&1

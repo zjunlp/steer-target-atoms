@@ -1,0 +1,1 @@
+python ./baseline/steering_r1_qwen_gsm_max_len.py > ./data/r1/overthink_qwen/results/steering_r1_qwen_gsm_top20_add_gsm_template_max_len.log 2>&1
